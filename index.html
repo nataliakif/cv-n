@@ -14,22 +14,24 @@
     />
   </head>
   <body>
-    <!-- Main conteiner -->
-    <div class="main_conteiner">
+    <!-- Main container -->
+    <div class="main_container">
       <!-- Right part content-->
-      <div class="right_conteiner">
+      <div class="right_container">
         <!-- About me section-->
         <div class="about section">
-          <h2 class="about_profession">Junior | Trainee Front-End Developer</h2>
+          <h2 class="about_profession">Trainee Front-End Developer</h2>
           <h1 class="about_name">Nataliia Kyforenko</h1>
-          <h3 class="section_title">Summary</h3>
+          <h3 class="section_title">Profile</h3>
 
           <p class="about_description">
-            3+ years in SEO and 1 year of intensive frontend and backend studing.
-            Despite no commercial experience  I am  very motivated begginer developer with teamwork practice skills and computer sciense educatinal base.
-            I have a clear understanding that the position of a front-end developer is my way. I have been working towards  for a long time and will continue to get the dream job.<br>
-            Ready for test tasks<br>
-            You can find links to my projects at the end of cv.
+            Motivated and detail-oriented junior frontend developer with 2 years
+            of experience, including one year of intensive learning and one year
+            of real paid projects. My previous background in SEO (4+ years)
+            helps me create performant, accessible, and SEO-friendly websites.
+            Fully committed to growing in the frontend development field.
+            <br />
+            Ready for test tasks.<br />
           </p>
         </div>
 
@@ -39,44 +41,25 @@
 
           <!-- Company 3 -->
           <div>
-            <h4 class="work_position">
-              Maternity leave
-  
-            </h4>
-            <p class="work-experience-period">
-               January 2020 - October 2022
-              <span class="my-work-experience-separator"> | </span> Ukraine
-            </p>
+            <div class="work_experience_container">
+              <h4 class="work_position">Freelance Web Developer</h4>
+              <p class="work_experience_period">
+                Oct 2022 – Feb 2024
+                <span class="work_experience_separator"> | </span> Remote
+              </p>
+            </div>
             <ul class="work_duties">
               <li>
-                Despite the fact that this period of my life was mainly devoted to children, I was constantly learning something new and completed full stack developer courses.
+                Worked as an independent developer on several paid client
+                projects (landing pages, web apps, and tools). Links to selected
+                projects are available below in the “Projects” section. All
+                projects were paid and delivered directly to clients.
               </li>
-            </ul>
-              <h4 class="work_position">
-                Seo specialist
-                <span class="my-work-experience-company">GoTech Appliance Repair </span>
-              </h4>
-            <p class="work-experience-period">
-              October 2017 - January 2020
-              <span class="my-work-experience-separator"> | </span> Canada
-            </p>
-            <ul class="work_duties">
-              <li>
-               Implementation of the web resource optimization
-               
-              </li>
-              <li>Content plan</li>
-              <li>Analysis of competitors</li>
-              <li>
-                Monthly site audit, including usability analysis, technical and
-                software quality control of content and resource visibility
-              </li>
-              <li>Sitebuilding on Wordpress + Elementor</li>
             </ul>
           </div>
 
           <!-- Company 2 -->
-          <div>
+          <!-- <div>
             <h4 class="work_position">
               Seo specialist
               <span class="my-work-experience-company">AlesGroup</span>
@@ -93,10 +76,10 @@
                 articles writing
               </li>
             </ul>
-          </div>
+          </div> -->
 
           <!-- Company 1 -->
-          <div>
+          <!-- <div>
             <h4 class="work_position">
               PCB-designer
               <span class="my-work-experience-company"
@@ -118,33 +101,45 @@
                 interfaces.
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
 
         <!-- My education section-->
         <div class="education section">
-         
           <h3 class="section_title">Education</h3>
-          <h4 class="education_title">GoIT Full Stack Development course</h4>
-          <p class="education_faculty">Full Stack Developer</p>
-          <p class="education_period">
-            September 2021 - October 2022
-            <span class="education_separator"> | </span> Ukraine
-          </p>
-          <h4 class="education_title">Admiral Makarov National University of Shipbuilding</h4>
-          <p class="education_faculty">Computer Science</p>
-          <p class="education_period">
-            September 2009 - February 2015
-            <span class="education_separator"> | </span> Ukraine
-          </p>
+          <div class="education_block">
+            <div class="education_container">
+              <h4 class="education_title">
+                GoIT Full Stack Development course
+              </h4>
 
+              <p class="education_period">
+                Sep2021 - Oct2022
+                <span class="education_separator"> | </span> Ukraine
+              </p>
+            </div>
+            <p class="education_faculty">Full Stack Developer</p>
+          </div>
+          <div class="education_block">
+            <div class="education_container">
+              <h4 class="education_title">
+                Admiral Makarov National University of Shipbuilding
+              </h4>
+
+              <p class="education_period">
+                Sep 2009 - Feb 2015
+                <span class="education_separator"> | </span> Ukraine
+              </p>
+            </div>
+            <p class="education_faculty">Computer Science</p>
+          </div>
         </div>
-    
-       <!-- My projects section -->
-       <div class="projects section">
-        <h3 class="section_title" class="section_title">My Projects</h3>
-        <ol class="projects_list">
-          <!-- <li class="projects_item">
+
+        <!-- My projects section -->
+        <div class="projects section">
+          <h3 class="section_title">My Projects</h3>
+          <ol class="projects_list">
+            <!-- <li class="projects_item">
             <span class="projects_text">
               <a
                 href="https://www.sharovalaw.com/"
@@ -171,108 +166,205 @@
             </span>
             <p>The site was made by me from scratch with all functional and SEO</p>
           </li> -->
-          <li class="projects_item">
-          
+
+            <li class="projects_item">
+              <span class="projects_text">
+                <span class="projects_link">AC Service Application</span>
+                <p class="projects_description">
+                  Full-featured React Native app for auto service with
+                  authentication, order management, parts selection, role-based
+                  access, and internal chat. Saved the client 2,000 EUR in
+                  development costs.
+                </p>
+                <a
+                  href="https://github.com/nataliakif/AC-service-app"
+                  class="projects_link_git"
+                  target="_blank"
+                >
+                  Github Link</a
+                >
+                <span class="projects_bracket">[</span>React Native, Firebase,
+                Expo<span class="my-projects-bracket">]</span>
+              </span>
+              <p class="projects_text">Role: Fullstack Developer</p>
+            </li>
+            <li class="projects_item">
+              <span class="projects_text">
+                <span class="projects_link"
+                  >UIDL to BOS Widget Converter Tool</span
+                >
+                <p class="projects_description">
+                  Plugin for converting UIDL files into BOS widget format with
+                  live rendering. Enabled seamless integration into the BOS
+                  ecosystem.
+                </p>
+                <a
+                  href="https://www.notion.so/How-to-use-the-Plugin-to-generate-Widgets-09fce2353977496f9ccef3392a3d167a#ea42626550e745a2a0cf94a632f4eba0"
+                  class="projects_link_git"
+                  target="_blank"
+                  >My Notion Article</a
+                >
+                <span class="projects_bracket">[</span>React, TeleportHQ, BOS
+                Platform<span class="my-projects-bracket">]</span>
+              </span>
+              <p class="projects_text">Role: Developer</p>
+            </li>
+            <li class="projects_item">
+              <span class="projects_text">
+                <a
+                  href="  https://black-sand-0a7e79303.4.azurestaticapps.net"
+                  class="projects_link"
+                  target="_blank"
+                  >Upwork Coaching Landing Page</a
+                >
+
+                <p class="projects_description">
+                  Responsive landing page to promote Upwork coaching services
+                  and sell a downloadable guide.
+                </p>
+                <a
+                  href="https://github.com/nataliakif/landing"
+                  class="projects_link_git"
+                  target="_blank"
+                  >Github</a
+                >
+
+                <span class="projects_bracket">[</span>HTML, CSS,
+                JavaScript<span class="my-projects-bracket">]</span>
+              </span>
+              <p class="projects_text">Role: Frontend Developer</p>
+            </li>
+
+            <li class="projects_item">
               <a
                 href="https://nataliakif.github.io/IceCream-project8/"
                 class="projects_link"
                 target="_blank"
                 >IceCream</a
-              >  <p class="projects_description">  
-                Responsive layout website.</p> <a
-              href="https://github.com/nataliakif/IceCream-project8.git"
-              class="projects_link_git"
-              target="_blank"
-              > Github Link</a
-            >
-              <span class="projects_bracket">[</span> HTML, SASS, Parcel, JS, command work
-              on GitHub <span class="my-projects-bracket">]</span>
+              >
+              <p class="projects_description">Responsive layout website.</p>
+              <a
+                href="https://github.com/nataliakif/IceCream-project8.git"
+                class="projects_link_git"
+                target="_blank"
+              >
+                Github Link</a
+              >
+              <span class="projects_bracket">[</span> HTML, SASS, Parcel, JS,
+              teamwork on GitHub <span class="my-projects-bracket">]</span>
               <p class="projects_text">Role: TeamLead</p>
-            <p >  
-             
-              Build project on github, Reviews Section, check for deploy errors and html/css bugs 
-            </p>
-          </li>
-          <li class="projects_item">
-            <span class="projects_text">
-              <a
-                href="https://nataliakif.github.io/project-filmoteka/"
-                class="projects_link"
-                target="_blank"
-                >Filmoteka</a
-              >
-              <p class="projects_description"> 
-                The service for searching films by genre, name and creating lists of watched films and queue for viewing in the future. </p>
-              <a
-              href="https://github.com/nataliakif/project-filmoteka.git"
-              class="projects_link_git"
-              target="_blank"
-              > Github Link</a
-            >
-            
-              <span class="projects_bracket">[</span> HTML, CSS/SASS, JS, AJAX, REST API, teamwork practice with Git
-              <span class="my-projects-bracket">]</span>
-            </span>
-            <p class="projects_text">Role: TeamLead</p>
-            <p > 
-             
-              Build project on github, check for deploy errors and html/css/js bugs, film card component and film lists decoration, all async queries and work with REST API
-            </p>
-          </li>
-          <li class="projects_item">
-            <span class="projects_text">
-              <a
-                href="https://book-reader-front.netlify.app/"
-                class="projects_link"
-                target="_blank"
-                >Read Book</a
-              >
-              <p class="projects_description"> Application for reading books, planning, tracking statistics.</p>
-              <a
-              href="https://github.com/nataliakif/BR-frontend.git"
-              class="projects_link_git"
-              target="_blank"
-              > Github Frontend,</a
-            >
-            <a
-              href="https://github.com/nataliakif/BR-backend.git"
-              class="projects_link_git"
-              target="_blank"
-              > Github Backend</a
-            >
-              
-              <span class="projects_bracket">[</span>React, Redux, RTK Query, Styled Components, MongoDB, Mongoosee, Expreess, Node.js
-              <span class="my-projects-bracket">]</span>
-            </span>
-            <p class="projects_text">Role: TeamLead</p>
-            <p class="projects_text">
-              Server Deployment, project structure, creating MongoDB, add results component, modals, creating training section. 
-              Placement of all components according to the layout. 
-              Deploy on Heroku and Netlify.
-            </p>
-          </li>
-        </ol>
-      </div>
+              <p>
+                Build project on github, Reviews Section, check for deploy
+                errors and html/css bugs
+              </p>
+            </li>
+            <li class="projects_item">
+              <span class="projects_text">
+                <a
+                  href="https://nataliakif.github.io/project-filmoteka/"
+                  class="projects_link"
+                  target="_blank"
+                  >Filmoteka</a
+                >
+                <p class="projects_description">
+                  The service for searching films by genre, name and creating
+                  lists of watched films and queue for viewing in the future.
+                </p>
+                <a
+                  href="https://github.com/nataliakif/project-filmoteka.git"
+                  class="projects_link_git"
+                  target="_blank"
+                >
+                  Github Link</a
+                >
+
+                <span class="projects_bracket">[</span> HTML, CSS/SASS, JS,
+                AJAX, REST API, teamwork practice with Git
+                <span class="my-projects-bracket">]</span>
+              </span>
+              <p class="projects_text">Role: TeamLead</p>
+
+              <p class="projects_description">
+                Build project on github, check for deploy errors and html/css/js
+                bugs, film card component and film lists decoration, all async
+                queries and work with REST API
+              </p>
+            </li>
+            <li class="projects_item">
+              <span class="projects_text">
+                <a
+                  href="https://book-reader-front.netlify.app/"
+                  class="projects_link"
+                  target="_blank"
+                  >Read Book</a
+                >
+                <p class="projects_description">
+                  Application for reading books, planning, tracking statistics.
+                </p>
+                <a
+                  href="https://github.com/nataliakif/BR-frontend.git"
+                  class="projects_link_git"
+                  target="_blank"
+                >
+                  Github Frontend,</a
+                >
+                <a
+                  href="https://github.com/nataliakif/BR-backend.git"
+                  class="projects_link_git"
+                  target="_blank"
+                >
+                  Github Backend</a
+                >
+
+                <span class="projects_bracket">[</span>React, Redux, RTK Query,
+                Styled Components, MongoDB, Mongoose, Express, Node.js
+                <span class="my-projects-bracket">]</span>
+              </span>
+              <p class="projects_text">Role: TeamLead</p>
+
+              <p class="projects_description">
+                Server Deployment, project structure, creating MongoDB, add
+                results component, modals, creating training section. Placement
+                of all components according to the layout. Deploy the backend
+                part of the project on Heroku. Deploy the frontend part of the
+                project on Netlify.
+              </p>
+            </li>
+          </ol>
+        </div>
       </div>
 
       <!-- Left sidebar content-->
 
-      <aside class="sidebar conteiner">
-        <img src="img/photo.jpeg" alt="My photo" />
+      <aside class="sidebar container">
+        <img src="img/photo.png" alt="My photo" />
         <div class="contacts section">
-          <h3 class="sidebar_title">Contacts</h3> 
-            <a class="contact_link" >+380934496391 </a>
-            <a class="contact_link" 
-              >nataliakif@gmail.com
-        
-            <a class="contact_link" target="_blank" href="https://github.com/nataliakif"
-              >GitHub
-            </a>
-            <a class="contact_link" target="_blank" href="https://www.linkedin.com/in/nataliia-kyforenko-b6b84696/"
+          <h3 class="sidebar_title">Contacts</h3>
+
+          <a class="contact_link">+380934496391</a>
+
+          <a class="contact_link" href="mailto:nataliakif@gmail.com"
+            >nataliakif@gmail.com</a
+          >
+          <a
+            class="contact_link"
+            target="_blank"
+            href="https://github.com/nataliakif"
+            >GitHub
+          </a>
+          <a
+            class="contact_link"
+            target="_blank"
+            href="https://www.linkedin.com/in/nataliia-kyforenko-b6b84696/"
             >LinkedIn
           </a>
-          <a class="contact_link" target="_blank" href="tg://resolve?domain=Blondoff">Telegram</a>
-          <p class="contact_link place" >Ivano-Frankivsk, Ukraine</p>
+          <a
+            class="contact_link"
+            target="_blank"
+            href="tg://resolve?domain=Blondoff"
+            >Telegram</a
+          >
+          <p class="contact_link place">Rumia, Poland</p>
         </div>
 
         <!--Tech skills section-->
@@ -280,27 +372,42 @@
           <h3 class="sidebar_title">Tech skills</h3>
           <ul class="tech-skills_list">
             <li class="tech-skills_item">
-              <span class="tech-skills_text four_stars"> HTML5, CSS3</span>
+              <span class="tech-skills_text four_stars">HTML5, CSS3, SASS</span>
             </li>
             <li class="tech-skills_item">
-              <span class="tech-skills_text four_stars"> Responsive Design </span>
+              <span class="tech-skills_text three_stars"
+                >JavaScript (ES6+)</span
+              >
             </li>
             <li class="tech-skills_item">
-              <span class="tech-skills_text three_stars"> Javascript </span>
+              <span class="tech-skills_text three_stars"
+                >React, Redux Toolkit, React Native</span
+              >
             </li>
             <li class="tech-skills_item">
-              <span class="tech-skills_text three_stars" > React Redux </span>
+              <span class="tech-skills_text two_stars"
+                >Node.js, Express.js (basic)</span
+              >
             </li>
-
             <li class="tech-skills_item">
-              <span class="tech-skills_text three_stars"> Node.js</span>
+              <span class="tech-skills_text four_stars">Git, GitHub</span>
             </li>
-
             <li class="tech-skills_item">
-              <span class="tech-skills_text four_stars"> GIT</span>
+              <span class="tech-skills_text four_stars"
+                >Responsive and Mobile-First Design</span
+              >
+            </li>
+            <li class="tech-skills_item">
+              <span class="tech-skills_text two_stars">MongoDB (basic)</span>
+            </li>
+            <li class="tech-skills_item">
+              <span class="tech-skills_text three_stars"
+                >Firebase (Authentication, Firestore)</span
+              >
             </li>
           </ul>
         </div>
+
         <!--Soft skills section-->
         <div class="soft-skills section">
           <h3 class="sidebar_title">Soft skills</h3>
@@ -308,7 +415,7 @@
             <li class="soft-skills_item">
               <span class="soft-skills_text">Sociability</span>
             </li>
-            
+
             <li class="soft-skills_item">
               <span class="soft-skills_text">Adaptability</span>
             </li>
@@ -316,7 +423,7 @@
               <span class="soft-skills_text">Teamwork</span>
             </li>
             <li class="soft-skills_item">
-              <span class="soft-skills_text">Lidership skills</span>
+              <span class="soft-skills_text">Leadership skills</span>
             </li>
           </ul>
         </div>
@@ -324,16 +431,28 @@
           <h3 class="sidebar_title">Languages</h3>
           <ul class="tech-skills_list">
             <li class="tech-skills_item">
-              <p class="tech-skills_text"> Ukrainian <span class="tech-skills_level">- native</span></p>
+              <p class="tech-skills_text">
+                Ukrainian <span class="tech-skills_level">- native</span>
+              </p>
+            </li>
+            <!-- <li class="tech-skills_item">
+              <p class="tech-skills_text"> Russian <span class="tech-skills_level">- native</span></p>
+            </li> -->
+            <li class="tech-skills_item">
+              <p class="tech-skills_text">
+                English <span class="tech-skills_level">- intermediate</span>
+              </p>
+            </li>
+
+            <li class="tech-skills_item">
+              <p class="tech-skills_text">
+                Polish <span class="tech-skills_level">- intermediate</span>
+              </p>
             </li>
             <li class="tech-skills_item">
-              <p class="tech-skills_text"> English <span class="tech-skills_level">- upper-intermediate</span>
-            </li>
-            <li class="tech-skills_item">
-              <p class="tech-skills_text"> Polish <span class="tech-skills_level">- intermediate</span></p>
-            </li>
-            <li class="tech-skills_item">
-              <p class="tech-skills_text"> Italian <span class="tech-skills_level">- elementary</span></p>
+              <p class="tech-skills_text">
+                Italian <span class="tech-skills_level">- elementary</span>
+              </p>
             </li>
           </ul>
         </div>
